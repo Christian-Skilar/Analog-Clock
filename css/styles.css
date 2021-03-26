@@ -1,0 +1,83 @@
+body {
+	font-family: "Open Sans", Verdana, sans-serif;
+}
+
+.clock {
+	margin: 100px auto;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	border: 10px solid #000;
+	position: relative;
+}
+
+.hand {
+	background: #000;
+	height: 150px;
+	width: 6px;
+	position: absolute;
+	left: 147px;
+	transform-origin: bottom;
+}
+
+.hour-hand {
+	height: 80px;
+	top: 70px;
+	background: #000;
+}
+
+.minute-hand {
+	height: 130px;
+	left: 145px;
+	top: 23px;
+}
+
+.second-hand {
+	background: #e80000;
+	width: 2px;
+	transform: rotate(0deg);
+}
+
+.dot {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: #000;
+	position: absolute;
+	left: 140px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.nr {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.twelve {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 10px;
+}
+
+.six {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+}
+
+.three {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 10px;
+}
+
+.nine {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+}
